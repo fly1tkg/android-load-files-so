@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/tkg/AndroidStudioProjects/answer/app/src/main/assets" >
+            <file
+                name="mips/libanswer.so"
+                path="/Users/tkg/AndroidStudioProjects/answer/app/src/main/assets/mips/libanswer.so" />
+            <file
+                name="armeabi-v7a/libanswer.so"
+                path="/Users/tkg/AndroidStudioProjects/answer/app/src/main/assets/armeabi-v7a/libanswer.so" />
+            <file
+                name="x86/libanswer.so"
+                path="/Users/tkg/AndroidStudioProjects/answer/app/src/main/assets/x86/libanswer.so" />
+            <file
+                name="armeabi/libanswer.so"
+                path="/Users/tkg/AndroidStudioProjects/answer/app/src/main/assets/armeabi/libanswer.so" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/tkg/AndroidStudioProjects/answer/app/src/debug/assets" />
+    </dataSet>
+
+</merger>
